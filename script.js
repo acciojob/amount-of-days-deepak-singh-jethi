@@ -1,8 +1,9 @@
 //your JS code here. If required.
 
 let year = prompt("enter the year");
+daysOfAYear(year);
 
-function daysOfYear(year){
+function daysOfAYear(year){
 	if((year%4==0 && year%100!==0) ||year%400==0){
 	console.log("366");
 }
@@ -11,3 +12,4 @@ function daysOfYear(year){
 	}
 }
 }
+
