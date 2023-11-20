@@ -1,15 +1,15 @@
 //your JS code here. If required.
 
-let year = prompt("enter the year");
-daysOfAYear(year);
-
 function daysOfAYear(year){
 	if((year%4==0 && year%100!==0) ||year%400==0){
-	console.log("366");
+	return 366;
 }
 	else{
-		console.log("365");
+		return 365;
 	}
 }
-}
+
+console.log(daysOfAYear(2000));
+console.log(daysOfAYear(1000));
+
 
